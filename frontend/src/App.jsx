@@ -143,10 +143,10 @@ function App() {
       </section>
 
       {/* Third Viewport - Team Members Section */}
-      <section id="team-section" className="min-h-screen bg-gradient-to-r from-green-300 to-blue-400 flex flex-col items-center p-6 pt-12">
+      <section id="team-section" className="min-h-screen bg-gradient-to-r from-green-300 to-blue-400 flex flex-col items-center justify-center p-6">
         <h2 className="text-4xl font-bold text-white mb-8">Meet Our Team</h2>
         <div className="flex flex-wrap justify-center gap-8">
-          {['Gayatri Sawant', 'Vaishnavi Chavan', 'Tanaya'].map((name, index) => (
+          {['Gayatri Sawant', 'Vaishnavi Chavan', 'Tanaya '].map((name, index) => (
             <div
               key={index}
               className="w-64 p-6 bg-white bg-opacity-90 rounded-lg shadow-lg transform transition duration-500 hover:scale-105 hover:shadow-2xl"
